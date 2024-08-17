@@ -1,0 +1,35 @@
+header {
+    border-bottom: 1px solid #000;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 64px;
+}
+
+
+header > h1 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+header > ul {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+}
+ 
+header > ul > li {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+header > button {
+    padding: 8px 20px;
+    font-size: 16px;
+    font-weight: 400;
+
+    background-color: #000;
+    color: #fff;
+}
+
