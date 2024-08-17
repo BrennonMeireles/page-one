@@ -1,0 +1,55 @@
+section  {
+    display: flex;
+    padding: 112px 64px;
+}
+
+section > article {
+    display: flex;
+    flex-direction: column;
+}
+
+section > div {
+    padding-top: 150px;
+    margin-right: 145px;
+}
+
+section > div > h1 {
+    font-size: 56px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+section > div > p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+section > div > article > div > input {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color:#666;
+    margin-top: 24px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    width: 360px;
+    height: 50px;
+}
+
+section > div > article > a {
+    font-size: 12px;
+    font-weight: 400;
+    color: #000;
+    text-decoration: none;
+}
+
+
+section > div > article > div > button {
+    padding: 15px 20px;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+
+    background-color: #000;
+    color: #fff;
+}
